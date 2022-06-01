@@ -1,13 +1,13 @@
-  float shade = 0;
-  int radius = 100;
-  float cx = 25;
-  float cy = 25;
-  float theta = radians(0);
-  int d = 50;
+  var shade = 0;
+  var radius = 100;
+  var cx = 25;
+  var cy = 25;
+  var theta = radians(0);
+  var d = 50;
 
 function setup() {
   // put setup code here
-  size(400,400);
+  createCanvas(400,400);
   background(255);
 }
 
