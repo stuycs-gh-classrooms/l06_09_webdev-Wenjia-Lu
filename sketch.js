@@ -2,13 +2,15 @@
   var radius = 100;
   var cx = 25;
   var cy = 25;
-  var theta = radians(0);
   var d = 50;
+  var theta;
 
 function setup() {
   // put setup code here
   createCanvas(400,400);
   background(255);
+  
+  theta = radians(0);
 }
 
 function draw() {
