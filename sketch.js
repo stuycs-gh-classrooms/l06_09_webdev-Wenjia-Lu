@@ -2,7 +2,7 @@
   var radius = 100;
   var cx = 25;
   var cy = 25;
-  var theta = toRadians(0);
+  var theta = radians(0);
   var d = 50;
 
 function setup() {
